@@ -1,0 +1,5 @@
+﻿la=float(input('Largura da parede: '))
+al=float(input('Altura da parede: '))
+print('Sua parede tem a dimensão de {}x{} e sua área é de {:.3f}m².'.format(la,al,la*al))
+print('Para pintar essa parede, você precisará de {:.3f}l de tinta.'.format((la*al) / 2))
+print('Teste Commit')
